@@ -3,7 +3,9 @@ function checkEven(num){
   if (num % 2 === 0){
   console.log('Even number!')
   }
-  else('Not an even number')
+  else {
+    console.log('Not an even number')
+  }
 }
 //Create a function that prints to the console n1 to n2. where n1 is the first input/parameter and n2 is the second input/parameter
 function printNum(n1,n2){
